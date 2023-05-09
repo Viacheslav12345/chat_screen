@@ -1,6 +1,6 @@
 # Тестове завдання "Chat Screen"
 - Витрачений час - 8 годин
-- Імейл - viach.sob@gamil.com
+- Імейл - viach.sob@gmail.com
 - Улюблене хобі - риболовля
 
  <p float="left">
