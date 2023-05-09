@@ -1,4 +1,4 @@
-import 'package:chat_screen/appColors.dart';
+import 'package:chat_screen/core/appColors.dart';
 import 'package:flutter/material.dart';
 
 class SearchAndSettingsWidget extends StatelessWidget {
