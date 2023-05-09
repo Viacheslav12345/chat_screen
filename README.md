@@ -1,16 +1,9 @@
-# chat_screen
+# Тестове завдання "Chat Screen"
+- Витрачений час - 8 годин
+- Імейл - viach.sob@gamil.com
+- Улюблене хобі - риболовля
 
-A new Flutter project.
+ <p float="left">
+    <img src="https://github.com/Viacheslav12345/chat_screen/assets/101039162/46c83f5a-3522-4e9d-8757-2c719758f8e9" alt="Preview" height="550px"/>
+    <img src="https://github.com/Viacheslav12345/chat_screen/assets/101039162/b87a40b9-2784-48c7-addf-ae8963264423" alt="Preview" height="500px"/>
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
