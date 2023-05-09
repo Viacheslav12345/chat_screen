@@ -1,3 +1,6 @@
+import 'package:chat_screen/appColors.dart';
+import 'package:chat_screen/chat_list_widget.dart';
+import 'package:chat_screen/search_settings_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,23 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Chat',
       theme: ThemeData(
-        primarySwatch: const MaterialColor(
-          0xFF0A2A3F,
-          <int, Color>{
-            50: Color.fromRGBO(10, 42, 63, 0),
-            100: Color.fromRGBO(10, 42, 63, 0),
-            200: Color.fromRGBO(10, 42, 63, 0),
-            300: Color.fromRGBO(10, 42, 63, 0),
-            400: Color.fromRGBO(10, 42, 63, 0),
-            500: Color.fromRGBO(10, 42, 63, 0),
-            600: Color.fromRGBO(10, 42, 63, 0),
-            700: Color.fromRGBO(10, 42, 63, 0),
-            800: Color.fromRGBO(10, 42, 63, 0),
-            900: Color.fromRGBO(10, 42, 63, 0),
-          },
-        ),
+        primarySwatch: AppColors.primaryColor,
         bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-          selectedItemColor: Color.fromARGB(255, 194, 6, 147),
+          selectedItemColor: AppColors.roseColors,
           unselectedItemColor: Color(0xFF0A2A3F),
           selectedLabelStyle: TextStyle(fontSize: 12),
           unselectedLabelStyle: TextStyle(fontSize: 12),
@@ -51,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          elevation: 2,
           leading: Padding(
             padding: const EdgeInsets.only(left: 20, bottom: 10, top: 10),
             child: Container(
@@ -101,13 +91,10 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: const <Widget>[
-          Center(
-            child: Text(
-              'Chat',
-            ),
-          ),
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: const [
+          SearchAndSettingsWidget(),
+          ChatWidget(),
         ],
       ),
     );
